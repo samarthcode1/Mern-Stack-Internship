@@ -1,0 +1,38 @@
+.vertical {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    background-color: rgb(0, 208, 255);
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    height: 55%;
+}
+.vertical a {
+    padding: 15px 25px;
+    font-size: large;
+    text-decoration: none;
+    display: block;
+}
+.home {
+    background-color: orange;
+}
+
+.horizontal {
+    display: flex;
+    flex-direction: row;
+    background-color: #b0aeae;
+    text-align: center;
+    margin-left: 240px;
+    width: 40%;
+}
+.horizontal a {
+    font-size: large;
+    padding: 15px 25px;
+    text-decoration: none;
+    display: inline-block;
+}
+.homie {
+    background-color: #555;
+    color: rgb(255, 255, 255);
+}

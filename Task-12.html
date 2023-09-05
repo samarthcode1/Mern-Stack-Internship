@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-12</title>
+    <link rel="stylesheet" href="styles12.css">
+
+</head>
+
+<body>
+    <center>
+        <div class="home">
+            <div class="form-container">
+                <form action="/submit" method="post">
+                    <table>
+                        <tr>
+                            <td><label class="form-label" for="Name">Name:</label></td>
+                            <td><input class="form-input" type="text" id="Name" name="Name" required=""
+                                    placeholder="your name"></td>
+                        </tr>
+                        <tr>
+                            <td> <label class="form-label" for="email">Email:</label></td>
+                            <td><input class="form-input" type="email" id="email" name="email" required=""
+                                    placeholder="your email"></td>
+
+                        </tr>
+                        <tr>
+                            <td> <label class="form-label" for="password">Password:</label>
+                            </td>
+                            <td> <input class="form-input" type="password" id="password" name="password" required="">
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td> <label class="form-label" for="phone_number">Phone:</label>
+                            </td>
+                            <td><input class="form-input" type="number" id="phone_number" name="phone_number"
+                                    min="1111111111" required=""></td>
+
+                        </tr>
+
+                        <tr>
+                            <td><label class="form-label">Gender:</label>
+                            <td><label class="form-label"for="fn">Male:</label></td>
+                            <td><input type="radio" name="gender" id="male"></td>
+                            <td><label class="form-label"for="fn">Female:</label></td>
+                            <td><input type="radio" name="gender" id="Female"></td>
+                            <td><label class="form-label"for="fn">Others:</label></td>
+                            <td><input type="radio" name="gender" id="Others"></td>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td> <label class="form-label">Languages Known:</label></td>
+                            <td><select class="form-select" name="gender" required="">
+                                    <option value="Select Language">Select Language</option>
+                                    <option value="English">English</option>
+                                    <option value="Hindi">Hindi</option>
+                                    <option value="French">French</option>
+                                    <option value="Tamil">Tamil</option>
+                                </select></td>
+
+                        </tr>
+
+                        <tr>
+                            <td> <label class="form-label" for="zip_code">Zipcode:</label></td>
+                            <td> <input class="form-input" type="number" id="zip_code" name="zip_code" min="1"
+                                    required="">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td> <label class="form-label" for="About">About:</label>
+                            </td>
+                            <td> <textarea class="form-input" id="About" name="About" rows="4" required=""
+                                    placeholder="Write about yourself"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td> <button class="save-button" type="submit">Register</button>
+                            </td>
+                        </tr>
+                </form>
+                </table>
+            </div>
+        </div>
+    </center>
+</body>
+
+</html>

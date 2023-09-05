@@ -1,0 +1,162 @@
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.p1 {
+    color: #8910b5;
+    font-size: x-large;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+body {
+
+    background-color: #E7DA1A;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #8910b5;
+    display: block;
+    font-weight: bold;
+}
+
+.navbar1 a {
+    text-decoration: none;
+    color: #401ce0;
+    display: block;
+    font-weight: bold;
+}
+
+.navbar2 a {
+    text-decoration: none;
+    color: #401ce0;
+
+    display: block;
+    font-weight: bold;
+}
+
+.navbar3 a {
+    text-decoration: none;
+    color: #401ce0;
+    display: block;
+    font-weight: bold;
+}
+
+.navbar {
+    background-color: white;
+    width: 100px;
+    padding: 20px;
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    margin-left: 10px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 0px;
+    bottom: auto;
+}
+
+nav {
+    display: block;
+}
+
+.navbar:hover {
+    background-color: rgb(59, 252, 236);
+}
+
+.navbar1:hover {
+    background-color: rgb(59, 252, 236);
+}
+
+.navbar2:hover {
+    background-color: rgb(59, 252, 236);
+}
+
+.navbar3:hover {
+    background-color: rgb(59, 252, 236);
+}
+
+.black-rectangle1 {
+    background-color: black;
+    width: 10px;
+    height: 35px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+
+
+
+.navbar1 {
+    background-color: white;
+    width: 100px;
+    padding: 20px;
+    position: absolute;
+    left: 0px;
+    top: 80px;
+    margin-left: 10px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 0px;
+    bottom: auto;
+}
+
+.navbar2 {
+    background-color: white;
+    width: 100px;
+    padding: 20px;
+    position: absolute;
+    left: 0px;
+    top: 150px;
+    margin-left: 10px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 0px;
+    bottom: auto;
+}
+
+.navbar3 {
+    background-color: white;
+    width: 100px;
+    padding: 20px;
+    position: absolute;
+    left: 0px;
+    top: 220px;
+    margin-left: 10px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 0px;
+    bottom: auto;
+}
+
+.d5 {
+    display: inline-block;
+    position: absolute;
+    left: 200px;
+}

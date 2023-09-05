@@ -1,0 +1,61 @@
+.home {
+    background-color: rgb(138, 24, 77);
+}
+
+div {
+    display: block;
+}
+
+.form-container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgb(127, 0, 59);
+}
+
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+.form-label {
+    font-weight: bold;
+    color: aliceblue;
+}
+.form-input {
+    width: 200px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.options {
+    color: aliceblue;
+}
+.form-select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.save-button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: large;
+    font-style: bold;
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    text-decoration: black;
+}
+    
+.save-button :hover{
+    background-color: aqua;
+}
